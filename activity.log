@@ -1,1 +1,2 @@
 [2023-04-17T15:41:15] Optimize embedding extractor pipeline
+[2023-04-17T12:17:37] Fix preprocessing memory leak
