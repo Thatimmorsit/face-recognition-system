@@ -2,3 +2,4 @@
 [2023-04-17T12:17:37] Fix preprocessing memory leak
 [2023-04-26T19:01:10] Clean up database handler code
 [2023-04-26T11:20:01] Optimize model loader pipeline
+[2023-04-28T13:45:28] Correct label encoder output format
