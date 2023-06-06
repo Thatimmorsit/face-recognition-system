@@ -9,3 +9,4 @@
 [2023-05-30T17:23:48] Enhance database handler accuracy
 [2023-05-30T09:55:24] Add support for bounding box renderer
 [2023-05-30T14:50:27] Add inline comments to embedding extractor
+[2023-06-06T19:25:32] Refactor recognition pipeline for clarity
