@@ -11,3 +11,4 @@
 [2023-05-30T14:50:27] Add inline comments to embedding extractor
 [2023-06-06T19:25:32] Refactor recognition pipeline for clarity
 [2023-06-06T19:17:21] Clean up preprocessing code
+[2023-06-07T19:51:23] Add support for database handler
