@@ -21,3 +21,4 @@
 [2023-07-28T19:03:25] Correct face detector output format
 [2023-07-28T15:46:28] Add face detector module
 [2023-08-03T12:33:16] Add support for confidence threshold
+[2023-08-04T14:57:16] Add docstrings to video capture
