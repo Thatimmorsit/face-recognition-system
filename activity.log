@@ -26,3 +26,4 @@
 [2023-08-08T12:34:41] Resolve issue with embedding extractor
 [2023-08-09T17:50:32] Fix failing test in embedding extractor
 [2023-08-11T08:46:43] Add docstrings to face detector
+[2023-08-15T18:25:26] Increase test coverage for recognition pipeline
