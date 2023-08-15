@@ -27,3 +27,4 @@
 [2023-08-09T17:50:32] Fix failing test in embedding extractor
 [2023-08-11T08:46:43] Add docstrings to face detector
 [2023-08-15T18:25:26] Increase test coverage for recognition pipeline
+[2023-08-15T13:52:21] Add support for bounding box renderer
