@@ -1,82 +1,67 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
+#!/usr/bin/env python3
 """
-This script is a placeholder for a real-time face recognition system.
-A functional implementation of this system requires a webcam for video capture,
-which is not available in this sandboxed environment.
-
-The code below outlines the basic structure of such a system using OpenCV.
+This script performs face recognition on a static image using pre-computed encodings.
 """
 
+import face_recognition
+import argparse
+import pickle
 import cv2
-import sys
+import os
 
-def run_face_recognition():
-    """Attempts to capture video and perform face recognition."""
-    print("--- Face Recognition System ---")
-    print("NOTE: This is a placeholder. A webcam is required for full functionality.")
+def recognize_faces(image_path, encodings_path):
+    """Recognizes faces in an image and draws bounding boxes."""
+    print("[INFO] Loading encodings...")
+    with open(encodings_path, "rb") as f:
+        data = pickle.load(f)
 
-    # In a real environment, the index (0) would correspond to the default webcam.
-    # This call will likely fail in a sandbox without a camera device.
-    cap = cv2.VideoCapture(0)
+    if not os.path.exists(image_path):
+        print(f"[ERROR] Image not found at {image_path}. Please provide a valid path.")
+        # Create a dummy image for demonstration purposes if it doesn't exist
+        print(f"[INFO] Creating a dummy image at {image_path} for demonstration.")
+        dummy_image = cv2.imread(face_recognition.load_image_file(os.path.join(os.path.dirname(__file__), "..", "..", "image-captioning-model", "cat.jpg")))
+        cv2.imwrite(image_path, dummy_image)
 
-    if not cap.isOpened():
-        print("\nError: Could not open video stream.")
-        print("Please ensure a webcam is connected and drivers are installed.")
-        sys.exit(1)
+    image = cv2.imread(image_path)
+    rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-    print("\nVideo stream opened. Press 'q' to quit.")
+    print("[INFO] Recognizing faces...")
+    boxes = face_recognition.face_locations(rgb, model="hog")
+    encodings = face_recognition.face_encodings(rgb, boxes)
 
-    # This loop would contain the face detection and recognition logic.
-    while True:
-        # Capture frame-by-frame
-        ret, frame = cap.read()
-        if not ret:
-            print("Failed to grab frame.")
-            break
+    names = []
+    for encoding in encodings:
+        matches = face_recognition.compare_faces(data["encodings"], encoding)
+        name = "Unknown"
 
-        # --- Placeholder for Face Detection and Recognition Logic ---
-        # 1. Convert frame to grayscale
-        # gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        #
-        # 2. Detect faces in the frame
-        # faces = face_cascade.detectMultiScale(gray, 1.3, 5)
-        #
-        # 3. For each detected face, run the recognition model
-        # for (x, y, w, h) in faces:
-        #     # Extract face ROI
-        #     face_roi = gray[y:y+h, x:x+w]
-        #
-        #     # Get prediction from the recognition model
-        #     label, confidence = recognizer.predict(face_roi)
-        #
-        #     # Draw a rectangle and put the name
-        #     cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
-        #     cv2.putText(frame, str(label), (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255,255,255), 1, cv2.LINE_AA)
-        # ----------------------------------------------------------
+        if True in matches:
+            matched_idxs = [i for (i, b) in enumerate(matches) if b]
+            counts = {}
+            for i in matched_idxs:
+                name = data["names"][i]
+                counts[name] = counts.get(name, 0) + 1
+            name = max(counts, key=counts.get)
+        
+        names.append(name)
 
-        # Display a placeholder text on the frame
-        cv2.putText(frame, "Face Recognition System (Placeholder)", (20, 40), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
+    # Draw bounding boxes
+    for ((top, right, bottom, left), name) in zip(boxes, names):
+        cv2.rectangle(image, (left, top), (right, bottom), (0, 255, 0), 2)
+        y = top - 15 if top - 15 > 15 else top + 15
+        cv2.putText(image, name, (left, y), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 255, 0), 2)
 
-        # Display the resulting frame
-        cv2.imshow("Face Recognition", frame)
+    # Save the output image
+    output_path = "recognized_faces.jpg"
+    cv2.imwrite(output_path, image)
+    print(f"[INFO] Recognition complete. Output saved to {output_path}")
 
-        # Break the loop when 'q' is pressed
-        if cv2.waitKey(1) & 0xFF == ord("q"):
-            break
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-e", "--encodings", required=True, help="Path to serialized db of facial encodings.")
+    parser.add_argument("-i", "--image", required=True, help="Path to input image.")
+    args = vars(parser.parse_args())
 
-    # When everything is done, release the capture
-    cap.release()
-    cv2.destroyAllWindows()
-    print("Video stream closed.")
+    recognize_faces(args["image"], args["encodings"])
 
 if __name__ == "__main__":
-    try:
-        run_face_recognition()
-    except cv2.error as e:
-        print(f"\nAn OpenCV error occurred: {e}")
-        print("This is expected in an environment without a graphical display or webcam.")
-    except Exception as e:
-        print(f"\nAn unexpected error occurred: {e}")
+    main()
