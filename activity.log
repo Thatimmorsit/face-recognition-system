@@ -33,3 +33,4 @@
 [2023-08-31T09:41:10] Correct model loader output format
 [2023-08-31T12:42:05] Resolve issue with video capture
 [2023-09-05T09:33:41] Update model loader logic
+[2023-09-06T17:26:29] Improve bounding box renderer performance
