@@ -43,3 +43,4 @@
 [2023-09-26T16:48:08] Fix edge case in video capture
 [2023-09-26T12:29:56] Patch embedding extractor validation bug
 [2023-09-28T18:55:40] Optimize model loader pipeline
+[2023-10-05T11:02:47] Correct recognition pipeline output format
