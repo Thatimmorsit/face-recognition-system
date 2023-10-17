@@ -46,3 +46,4 @@
 [2023-10-05T11:02:47] Correct recognition pipeline output format
 [2023-10-10T16:15:24] Add model loader module
 [2023-10-12T13:35:27] Enhance embedding extractor accuracy
+[2023-10-17T18:57:05] Introduce preprocessing component
