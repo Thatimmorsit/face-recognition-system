@@ -55,3 +55,4 @@
 [2023-10-31T12:39:27] Improve embedding extractor performance
 [2023-11-01T11:15:31] Refactor recognition pipeline for clarity
 [2023-11-16T11:18:03] Refactor model loader for clarity
+[2023-11-21T18:10:15] Add bounding box renderer module
