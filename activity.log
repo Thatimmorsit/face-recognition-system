@@ -58,3 +58,4 @@
 [2023-11-21T18:10:15] Add bounding box renderer module
 [2023-11-22T18:16:45] Fix failing test in label encoder
 [2023-11-23T10:48:36] Fix failing test in label encoder
+[2023-11-29T13:26:09] Fix edge case in database handler
