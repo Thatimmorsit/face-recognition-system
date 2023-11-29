@@ -59,3 +59,4 @@
 [2023-11-22T18:16:45] Fix failing test in label encoder
 [2023-11-23T10:48:36] Fix failing test in label encoder
 [2023-11-29T13:26:09] Fix edge case in database handler
+[2023-11-29T15:10:49] Increase test coverage for confidence threshold
