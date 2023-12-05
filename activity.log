@@ -61,3 +61,4 @@
 [2023-11-29T13:26:09] Fix edge case in database handler
 [2023-11-29T15:10:49] Increase test coverage for confidence threshold
 [2023-12-01T17:59:18] Correct bounding box renderer output format
+[2023-12-05T13:43:37] Implement face detector functionality
