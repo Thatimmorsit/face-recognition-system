@@ -63,3 +63,4 @@
 [2023-12-01T17:59:18] Correct bounding box renderer output format
 [2023-12-05T13:43:37] Implement face detector functionality
 [2023-12-05T13:00:18] Document embedding extractor parameters
+[2023-12-08T15:42:25] Clean up recognition pipeline code
