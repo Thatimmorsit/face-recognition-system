@@ -68,3 +68,4 @@
 [2023-12-13T13:27:06] Refactor recognition pipeline for clarity
 [2023-12-13T09:28:20] Clean up preprocessing code
 [2023-12-13T19:39:02] Add docstrings to bounding box renderer
+[2023-12-19T14:14:08] Add unit tests for model loader
