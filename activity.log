@@ -74,3 +74,4 @@
 [2023-12-27T15:37:53] Patch database handler validation bug
 [2023-12-29T09:44:43] Document model loader parameters
 [2023-12-29T08:26:01] Resolve issue with label encoder
+[2024-01-02T15:06:49] Document recognition pipeline parameters
