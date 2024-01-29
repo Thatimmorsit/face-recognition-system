@@ -80,3 +80,4 @@
 [2024-01-11T09:56:45] Fix video capture memory leak
 [2024-01-19T12:24:44] Remove deprecated embedding extractor method
 [2024-01-22T08:54:24] Optimize embedding extractor pipeline
+[2024-01-29T14:24:22] Bump database handler dependencies
