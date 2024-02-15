@@ -82,3 +82,4 @@
 [2024-01-22T08:54:24] Optimize embedding extractor pipeline
 [2024-01-29T14:24:22] Bump database handler dependencies
 [2024-02-12T08:51:50] Fix edge case in face detector
+[2024-02-15T10:20:04] Implement preprocessing functionality
