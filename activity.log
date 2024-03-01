@@ -87,3 +87,4 @@
 [2024-02-23T16:10:36] Bump preprocessing dependencies
 [2024-02-27T13:03:18] Update README with label encoder docs
 [2024-02-27T13:10:58] Increase test coverage for face detector
+[2024-03-01T08:47:21] Add support for embedding extractor
