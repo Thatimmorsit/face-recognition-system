@@ -93,3 +93,4 @@
 [2024-03-05T09:42:08] Clean up model loader code
 [2024-03-06T09:50:23] Optimize recognition pipeline pipeline
 [2024-03-13T10:41:48] Fix preprocessing memory leak
+[2024-03-14T12:14:40] Add inline comments to confidence threshold
