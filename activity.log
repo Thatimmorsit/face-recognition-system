@@ -96,3 +96,4 @@
 [2024-03-14T12:14:40] Add inline comments to confidence threshold
 [2024-03-26T10:28:30] Document face detector parameters
 [2024-03-26T08:59:40] Add docstrings to recognition pipeline
+[2024-04-10T17:07:24] Increase test coverage for database handler
