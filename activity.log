@@ -98,3 +98,4 @@
 [2024-03-26T08:59:40] Add docstrings to recognition pipeline
 [2024-04-10T17:07:24] Increase test coverage for database handler
 [2024-04-10T12:10:49] Bump recognition pipeline dependencies
+[2024-04-15T15:45:42] Fix edge case in embedding extractor
