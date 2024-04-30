@@ -106,3 +106,4 @@
 [2024-04-30T17:57:27] Document database handler parameters
 [2024-04-30T10:47:46] Introduce video capture component
 [2024-04-30T14:51:54] Remove deprecated bounding box renderer method
+[2024-04-30T12:35:09] Remove deprecated model loader method
