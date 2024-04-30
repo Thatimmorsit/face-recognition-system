@@ -104,3 +104,4 @@
 [2024-04-19T16:40:32] Clean up recognition pipeline code
 [2024-04-19T12:09:44] Implement bounding box renderer functionality
 [2024-04-30T17:57:27] Document database handler parameters
+[2024-04-30T10:47:46] Introduce video capture component
