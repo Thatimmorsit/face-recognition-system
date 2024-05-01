@@ -108,3 +108,4 @@
 [2024-04-30T14:51:54] Remove deprecated bounding box renderer method
 [2024-04-30T12:35:09] Remove deprecated model loader method
 [2024-05-01T15:11:48] Correct recognition pipeline output format
+[2024-05-01T18:02:00] Fix model loader memory leak
