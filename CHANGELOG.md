@@ -4,3 +4,6 @@
 
 ## 2024-02-27
 - Add majority voting for more accurate recognition
+
+## 2024-05-10
+- Add output image saving with bounding boxes
