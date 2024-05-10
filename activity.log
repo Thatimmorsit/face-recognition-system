@@ -109,3 +109,4 @@
 [2024-04-30T12:35:09] Remove deprecated model loader method
 [2024-05-01T15:11:48] Correct recognition pipeline output format
 [2024-05-01T18:02:00] Fix model loader memory leak
+[2024-05-10T11:57:52] Add support for database handler
