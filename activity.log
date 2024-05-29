@@ -114,3 +114,4 @@
 [2024-05-20T18:29:52] Increase test coverage for bounding box renderer
 [2024-05-28T13:01:27] Add support for video capture
 [2024-05-28T17:28:37] Clean up bounding box renderer code
+[2024-05-29T17:52:55] Bump label encoder dependencies
