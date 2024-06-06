@@ -117,3 +117,4 @@
 [2024-05-29T17:52:55] Bump label encoder dependencies
 [2024-05-30T08:37:57] Add inline comments to confidence threshold
 [2024-05-31T17:20:16] Add unit tests for bounding box renderer
+[2024-06-06T08:03:04] Bump model loader dependencies
