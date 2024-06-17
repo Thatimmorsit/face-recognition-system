@@ -121,3 +121,4 @@
 [2024-06-12T08:27:41] Create recognition pipeline handler
 [2024-06-12T09:59:02] Add support for confidence threshold
 [2024-06-13T14:07:33] Patch face detector validation bug
+[2024-06-17T13:55:13] Improve face detector performance
