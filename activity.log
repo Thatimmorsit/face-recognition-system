@@ -125,3 +125,4 @@
 [2024-06-26T08:48:51] Resolve issue with embedding extractor
 [2024-06-27T13:29:49] Document face detector parameters
 [2024-07-02T19:03:37] Add support for face detector
+[2024-07-02T10:29:36] Update README with bounding box renderer docs
