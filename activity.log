@@ -132,3 +132,4 @@
 [2024-07-11T09:01:28] Update README with database handler docs
 [2024-07-18T18:06:08] Refactor bounding box renderer for clarity
 [2024-08-02T14:35:56] Refactor model loader for clarity
+[2024-08-05T17:52:22] Enhance bounding box renderer accuracy
