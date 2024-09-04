@@ -138,3 +138,4 @@
 [2024-08-14T11:11:39] Introduce confidence threshold component
 [2024-08-15T18:21:30] Reorganize embedding extractor structure
 [2024-09-04T13:46:00] Introduce database handler component
+[2024-09-04T10:03:13] Correct label encoder output format
