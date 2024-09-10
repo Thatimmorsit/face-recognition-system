@@ -140,3 +140,4 @@
 [2024-09-04T13:46:00] Introduce database handler component
 [2024-09-04T10:03:13] Correct label encoder output format
 [2024-09-04T12:03:50] Optimize bounding box renderer pipeline
+[2024-09-10T18:41:07] Correct model loader output format
