@@ -148,3 +148,4 @@
 [2024-09-24T16:10:10] Clean up label encoder code
 [2024-09-24T18:26:43] Implement bounding box renderer functionality
 [2024-09-25T08:30:41] Add inline comments to confidence threshold
+[2024-09-25T18:10:32] Add recognition pipeline module
