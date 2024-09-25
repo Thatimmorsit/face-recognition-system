@@ -149,3 +149,4 @@
 [2024-09-24T18:26:43] Implement bounding box renderer functionality
 [2024-09-25T08:30:41] Add inline comments to confidence threshold
 [2024-09-25T18:10:32] Add recognition pipeline module
+[2024-09-25T11:28:46] Add docstrings to confidence threshold
