@@ -7,3 +7,6 @@
 
 ## 2024-05-10
 - Add output image saving with bounding boxes
+
+## 2024-10-01
+- Improve HOG model usage for face detection
