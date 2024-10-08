@@ -151,3 +151,4 @@
 [2024-09-25T18:10:32] Add recognition pipeline module
 [2024-09-25T11:28:46] Add docstrings to confidence threshold
 [2024-09-27T11:29:35] Bump embedding extractor dependencies
+[2024-10-08T19:45:03] Update bounding box renderer logic
