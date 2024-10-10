@@ -153,3 +153,4 @@
 [2024-09-27T11:29:35] Bump embedding extractor dependencies
 [2024-10-08T19:45:03] Update bounding box renderer logic
 [2024-10-10T14:31:21] Correct bounding box renderer output format
+[2024-10-10T12:53:37] Optimize database handler pipeline
