@@ -158,3 +158,4 @@
 [2024-10-18T11:13:21] Fix face detector memory leak
 [2024-10-24T15:07:23] Resolve issue with preprocessing
 [2024-11-07T10:00:44] Update bounding box renderer logic
+[2024-11-07T11:50:56] Add docstrings to embedding extractor
