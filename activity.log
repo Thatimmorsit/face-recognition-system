@@ -157,3 +157,4 @@
 [2024-10-18T16:43:46] Resolve issue with face detector
 [2024-10-18T11:13:21] Fix face detector memory leak
 [2024-10-24T15:07:23] Resolve issue with preprocessing
+[2024-11-07T10:00:44] Update bounding box renderer logic
