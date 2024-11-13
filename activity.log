@@ -160,3 +160,4 @@
 [2024-11-07T10:00:44] Update bounding box renderer logic
 [2024-11-07T11:50:56] Add docstrings to embedding extractor
 [2024-11-12T09:43:03] Create label encoder handler
+[2024-11-13T17:39:05] Bump face detector dependencies
