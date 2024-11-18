@@ -164,3 +164,4 @@
 [2024-11-14T18:53:08] Introduce label encoder component
 [2024-11-14T10:37:45] Enhance recognition pipeline accuracy
 [2024-11-14T15:06:07] Resolve issue with label encoder
+[2024-11-18T18:20:58] Add model loader module
