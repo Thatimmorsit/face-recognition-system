@@ -167,3 +167,4 @@
 [2024-11-18T18:20:58] Add model loader module
 [2024-11-19T16:03:27] Add docstrings to bounding box renderer
 [2024-11-21T19:05:53] Add support for recognition pipeline
+[2024-11-21T16:29:12] Introduce model loader component
