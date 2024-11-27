@@ -169,3 +169,4 @@
 [2024-11-21T19:05:53] Add support for recognition pipeline
 [2024-11-21T16:29:12] Introduce model loader component
 [2024-11-27T15:28:52] Add model loader module
+[2024-11-27T08:58:32] Add support for database handler
