@@ -172,3 +172,4 @@
 [2024-11-27T08:58:32] Add support for database handler
 [2024-11-29T10:31:45] Correct database handler output format
 [2024-12-03T09:13:13] Update face detector logic
+[2024-12-03T17:09:26] Clean up face detector code
