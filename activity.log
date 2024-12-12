@@ -175,3 +175,4 @@
 [2024-12-03T17:09:26] Clean up face detector code
 [2024-12-09T16:39:09] Clean up recognition pipeline code
 [2024-12-10T10:38:22] Introduce face detector component
+[2024-12-12T15:51:47] Increase test coverage for database handler
