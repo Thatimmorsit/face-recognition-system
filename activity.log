@@ -178,3 +178,4 @@
 [2024-12-12T15:51:47] Increase test coverage for database handler
 [2024-12-18T13:33:19] Increase test coverage for video capture
 [2024-12-19T11:42:54] Add docstrings to preprocessing
+[2024-12-19T09:29:13] Add support for confidence threshold
