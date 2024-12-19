@@ -180,3 +180,4 @@
 [2024-12-19T11:42:54] Add docstrings to preprocessing
 [2024-12-19T09:29:13] Add support for confidence threshold
 [2024-12-19T12:39:20] Fix label encoder memory leak
+[2024-12-19T11:01:28] Remove deprecated face detector method
