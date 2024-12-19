@@ -177,3 +177,4 @@
 [2024-12-10T10:38:22] Introduce face detector component
 [2024-12-12T15:51:47] Increase test coverage for database handler
 [2024-12-18T13:33:19] Increase test coverage for video capture
+[2024-12-19T11:42:54] Add docstrings to preprocessing
