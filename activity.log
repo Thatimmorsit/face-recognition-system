@@ -182,3 +182,4 @@
 [2024-12-19T12:39:20] Fix label encoder memory leak
 [2024-12-19T11:01:28] Remove deprecated face detector method
 [2024-12-23T08:29:01] Patch database handler validation bug
+[2024-12-31T14:10:28] Enhance embedding extractor accuracy
