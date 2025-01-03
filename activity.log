@@ -184,3 +184,4 @@
 [2024-12-23T08:29:01] Patch database handler validation bug
 [2024-12-31T14:10:28] Enhance embedding extractor accuracy
 [2025-01-02T09:17:43] Create recognition pipeline handler
+[2025-01-03T17:00:11] Document embedding extractor parameters
