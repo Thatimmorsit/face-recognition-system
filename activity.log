@@ -188,3 +188,4 @@
 [2025-01-03T19:10:12] Enhance preprocessing accuracy
 [2025-01-03T08:55:14] Add docstrings to recognition pipeline
 [2025-01-03T10:10:32] Introduce video capture component
+[2025-01-08T13:17:21] Increase test coverage for video capture
