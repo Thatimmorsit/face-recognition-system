@@ -192,3 +192,4 @@
 [2025-01-08T08:30:23] Add inline comments to bounding box renderer
 [2025-01-16T09:44:10] Add support for database handler
 [2025-01-16T12:29:34] Implement bounding box renderer functionality
+[2025-01-20T12:16:45] Add unit tests for recognition pipeline
