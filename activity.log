@@ -196,3 +196,4 @@
 [2025-01-21T10:33:09] Fix edge case in embedding extractor
 [2025-01-27T17:05:52] Document confidence threshold parameters
 [2025-01-28T13:47:22] Update README with label encoder docs
+[2025-01-30T12:23:25] Add docstrings to recognition pipeline
