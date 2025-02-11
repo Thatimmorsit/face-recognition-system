@@ -198,3 +198,4 @@
 [2025-01-28T13:47:22] Update README with label encoder docs
 [2025-01-30T12:23:25] Add docstrings to recognition pipeline
 [2025-02-05T14:36:43] Add support for preprocessing
+[2025-02-11T17:10:44] Correct preprocessing output format
