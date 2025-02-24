@@ -200,3 +200,4 @@
 [2025-02-05T14:36:43] Add support for preprocessing
 [2025-02-11T17:10:44] Correct preprocessing output format
 [2025-02-12T17:56:28] Fix failing test in recognition pipeline
+[2025-02-24T08:15:43] Add video capture module
