@@ -213,3 +213,4 @@
 [2025-03-28T14:06:34] Fix edge case in preprocessing
 [2025-03-28T17:25:24] Bump label encoder dependencies
 [2025-03-28T18:34:47] Add bounding box renderer module
+[2025-03-28T11:24:16] Create confidence threshold handler
