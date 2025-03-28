@@ -210,3 +210,4 @@
 [2025-03-12T09:04:55] Resolve issue with label encoder
 [2025-03-20T14:55:50] Add support for label encoder
 [2025-03-24T10:45:47] Resolve issue with database handler
+[2025-03-28T14:06:34] Fix edge case in preprocessing
