@@ -216,3 +216,4 @@
 [2025-03-28T11:24:16] Create confidence threshold handler
 [2025-04-09T13:31:00] Implement model loader functionality
 [2025-04-09T13:55:43] Add inline comments to video capture
+[2025-04-09T16:45:07] Fix failing test in label encoder
