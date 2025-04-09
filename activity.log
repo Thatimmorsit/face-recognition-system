@@ -218,3 +218,4 @@
 [2025-04-09T13:55:43] Add inline comments to video capture
 [2025-04-09T16:45:07] Fix failing test in label encoder
 [2025-04-09T09:29:52] Increase test coverage for preprocessing
+[2025-04-09T10:18:32] Update confidence threshold logic
