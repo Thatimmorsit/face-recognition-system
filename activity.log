@@ -220,3 +220,4 @@
 [2025-04-09T09:29:52] Increase test coverage for preprocessing
 [2025-04-09T10:18:32] Update confidence threshold logic
 [2025-04-09T08:17:16] Optimize face detector pipeline
+[2025-04-14T10:40:58] Add inline comments to bounding box renderer
