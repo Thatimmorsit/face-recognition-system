@@ -223,3 +223,4 @@
 [2025-04-14T10:40:58] Add inline comments to bounding box renderer
 [2025-04-14T11:37:47] Add docstrings to embedding extractor
 [2025-04-15T19:13:25] Update README with model loader docs
+[2025-04-17T11:44:04] Reorganize video capture structure
