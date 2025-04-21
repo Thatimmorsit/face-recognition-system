@@ -225,3 +225,4 @@
 [2025-04-15T19:13:25] Update README with model loader docs
 [2025-04-17T11:44:04] Reorganize video capture structure
 [2025-04-18T11:54:37] Update confidence threshold logic
+[2025-04-21T13:42:05] Fix edge case in bounding box renderer
