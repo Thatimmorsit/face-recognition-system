@@ -228,3 +228,4 @@
 [2025-04-21T13:42:05] Fix edge case in bounding box renderer
 [2025-04-21T11:15:13] Implement face detector functionality
 [2025-04-23T08:21:23] Add embedding extractor module
+[2025-04-29T08:36:09] Update preprocessing logic
