@@ -230,3 +230,4 @@
 [2025-04-23T08:21:23] Add embedding extractor module
 [2025-04-29T08:36:09] Update preprocessing logic
 [2025-05-05T15:06:47] Document preprocessing parameters
+[2025-05-07T13:58:52] Clean up video capture code
