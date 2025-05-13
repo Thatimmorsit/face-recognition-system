@@ -232,3 +232,4 @@
 [2025-05-05T15:06:47] Document preprocessing parameters
 [2025-05-07T13:58:52] Clean up video capture code
 [2025-05-07T15:09:42] Fix edge case in recognition pipeline
+[2025-05-13T11:52:15] Bump label encoder dependencies
