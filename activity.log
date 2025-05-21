@@ -234,3 +234,4 @@
 [2025-05-07T15:09:42] Fix edge case in recognition pipeline
 [2025-05-13T11:52:15] Bump label encoder dependencies
 [2025-05-16T12:04:47] Resolve issue with bounding box renderer
+[2025-05-21T16:48:34] Fix database handler memory leak
