@@ -236,3 +236,4 @@
 [2025-05-16T12:04:47] Resolve issue with bounding box renderer
 [2025-05-21T16:48:34] Fix database handler memory leak
 [2025-05-21T09:14:37] Document preprocessing parameters
+[2025-06-04T10:53:00] Reorganize confidence threshold structure
