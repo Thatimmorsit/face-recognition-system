@@ -238,3 +238,4 @@
 [2025-05-21T09:14:37] Document preprocessing parameters
 [2025-06-04T10:53:00] Reorganize confidence threshold structure
 [2025-06-05T12:44:35] Enhance face detector accuracy
+[2025-06-05T16:29:47] Patch label encoder validation bug
