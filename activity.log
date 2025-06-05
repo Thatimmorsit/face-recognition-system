@@ -240,3 +240,4 @@
 [2025-06-05T12:44:35] Enhance face detector accuracy
 [2025-06-05T16:29:47] Patch label encoder validation bug
 [2025-06-05T09:25:59] Remove deprecated embedding extractor method
+[2025-06-05T18:46:05] Fix edge case in model loader
