@@ -242,3 +242,4 @@
 [2025-06-05T09:25:59] Remove deprecated embedding extractor method
 [2025-06-05T18:46:05] Fix edge case in model loader
 [2025-06-10T09:17:15] Optimize recognition pipeline pipeline
+[2025-06-16T11:47:24] Fix failing test in model loader
