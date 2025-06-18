@@ -244,3 +244,4 @@
 [2025-06-10T09:17:15] Optimize recognition pipeline pipeline
 [2025-06-16T11:47:24] Fix failing test in model loader
 [2025-06-18T19:34:57] Add unit tests for bounding box renderer
+[2025-06-18T19:57:48] Refactor confidence threshold for clarity
