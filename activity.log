@@ -247,3 +247,4 @@
 [2025-06-18T19:57:48] Refactor confidence threshold for clarity
 [2025-06-18T14:08:06] Add inline comments to embedding extractor
 [2025-06-18T16:18:52] Remove deprecated confidence threshold method
+[2025-06-18T16:18:07] Add support for database handler
