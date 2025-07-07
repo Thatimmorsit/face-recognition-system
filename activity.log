@@ -253,3 +253,4 @@
 [2025-06-24T15:32:21] Optimize bounding box renderer pipeline
 [2025-06-26T18:04:38] Add support for video capture
 [2025-06-30T13:51:37] Update README with recognition pipeline docs
+[2025-07-07T08:39:11] Update label encoder logic
