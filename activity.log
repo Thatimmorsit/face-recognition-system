@@ -255,3 +255,4 @@
 [2025-06-30T13:51:37] Update README with recognition pipeline docs
 [2025-07-07T08:39:11] Update label encoder logic
 [2025-07-07T16:27:10] Document confidence threshold parameters
+[2025-07-08T12:07:24] Fix failing test in bounding box renderer
