@@ -262,3 +262,4 @@
 [2025-07-23T18:22:18] Document recognition pipeline parameters
 [2025-07-30T15:20:14] Update README with confidence threshold docs
 [2025-07-30T12:48:38] Clean up video capture code
+[2025-08-04T14:51:37] Update face detector logic
