@@ -265,3 +265,4 @@
 [2025-08-04T14:51:37] Update face detector logic
 [2025-08-05T19:30:29] Implement confidence threshold functionality
 [2025-08-05T10:24:44] Optimize embedding extractor pipeline
+[2025-08-07T16:26:19] Add support for preprocessing
