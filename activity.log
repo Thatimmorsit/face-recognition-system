@@ -272,3 +272,4 @@
 [2025-08-19T11:16:11] Optimize model loader pipeline
 [2025-08-21T10:22:13] Document database handler parameters
 [2025-08-28T08:34:51] Introduce bounding box renderer component
+[2025-08-29T14:14:19] Fix bounding box renderer memory leak
