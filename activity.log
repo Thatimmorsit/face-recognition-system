@@ -276,3 +276,4 @@
 [2025-09-12T12:01:43] Create preprocessing handler
 [2025-09-23T16:11:29] Resolve issue with recognition pipeline
 [2025-09-29T18:26:20] Fix edge case in database handler
+[2025-10-01T15:24:55] Document bounding box renderer parameters
