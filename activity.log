@@ -278,3 +278,4 @@
 [2025-09-29T18:26:20] Fix edge case in database handler
 [2025-10-01T15:24:55] Document bounding box renderer parameters
 [2025-10-06T13:29:59] Bump video capture dependencies
+[2025-10-10T13:33:50] Patch confidence threshold validation bug
