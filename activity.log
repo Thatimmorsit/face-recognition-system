@@ -284,3 +284,4 @@
 [2025-10-22T17:29:36] Add support for model loader
 [2025-10-24T19:20:48] Refactor preprocessing for clarity
 [2025-10-24T09:56:45] Refactor confidence threshold for clarity
+[2025-10-24T15:27:55] Create database handler handler
