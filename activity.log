@@ -286,3 +286,4 @@
 [2025-10-24T09:56:45] Refactor confidence threshold for clarity
 [2025-10-24T15:27:55] Create database handler handler
 [2025-10-27T18:47:39] Refactor recognition pipeline for clarity
+[2025-10-30T08:37:14] Refactor embedding extractor for clarity
