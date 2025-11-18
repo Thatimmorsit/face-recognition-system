@@ -289,3 +289,4 @@
 [2025-10-30T08:37:14] Refactor embedding extractor for clarity
 [2025-11-04T17:52:53] Document recognition pipeline parameters
 [2025-11-05T12:37:15] Enhance embedding extractor accuracy
+[2025-11-18T10:26:56] Bump face detector dependencies
