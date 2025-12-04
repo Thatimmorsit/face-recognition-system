@@ -294,3 +294,4 @@
 [2025-11-21T10:10:05] Add docstrings to face detector
 [2025-12-03T19:43:53] Fix edge case in database handler
 [2025-12-04T08:22:21] Resolve issue with recognition pipeline
+[2025-12-04T16:58:50] Bump label encoder dependencies
