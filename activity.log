@@ -292,3 +292,4 @@
 [2025-11-18T10:26:56] Bump face detector dependencies
 [2025-11-20T13:59:47] Improve model loader performance
 [2025-11-21T10:10:05] Add docstrings to face detector
+[2025-12-03T19:43:53] Fix edge case in database handler
