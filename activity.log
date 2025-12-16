@@ -299,3 +299,4 @@
 [2025-12-04T15:35:45] Add model loader module
 [2025-12-05T09:05:51] Bump preprocessing dependencies
 [2025-12-09T14:50:40] Fix failing test in label encoder
+[2025-12-16T08:52:13] Add support for face detector
