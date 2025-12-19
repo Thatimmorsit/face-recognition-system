@@ -302,3 +302,4 @@
 [2025-12-16T08:52:13] Add support for face detector
 [2025-12-16T10:48:13] Clean up bounding box renderer code
 [2025-12-16T17:40:49] Reorganize model loader structure
+[2025-12-19T10:33:36] Remove deprecated recognition pipeline method
