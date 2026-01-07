@@ -307,3 +307,4 @@
 [2026-01-06T19:27:04] Bump label encoder dependencies
 [2026-01-07T10:49:21] Correct bounding box renderer output format
 [2026-01-07T10:04:04] Improve recognition pipeline performance
+[2026-01-07T10:15:26] Enhance database handler accuracy
