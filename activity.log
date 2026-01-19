@@ -311,3 +311,4 @@
 [2026-01-12T13:11:27] Enhance embedding extractor accuracy
 [2026-01-14T15:20:06] Resolve issue with recognition pipeline
 [2026-01-14T18:40:03] Reorganize model loader structure
+[2026-01-19T08:33:49] Implement video capture functionality
