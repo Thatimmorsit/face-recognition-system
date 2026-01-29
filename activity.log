@@ -314,3 +314,4 @@
 [2026-01-19T08:33:49] Implement video capture functionality
 [2026-01-19T18:04:10] Add docstrings to model loader
 [2026-01-22T10:50:55] Correct video capture output format
+[2026-01-29T15:05:57] Reorganize face detector structure
