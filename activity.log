@@ -316,3 +316,4 @@
 [2026-01-22T10:50:55] Correct video capture output format
 [2026-01-29T15:05:57] Reorganize face detector structure
 [2026-02-02T18:18:09] Increase test coverage for confidence threshold
+[2026-02-02T15:54:31] Optimize model loader pipeline
