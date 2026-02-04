@@ -320,3 +320,4 @@
 [2026-02-02T16:56:27] Add docstrings to bounding box renderer
 [2026-02-03T17:51:11] Implement recognition pipeline functionality
 [2026-02-03T17:06:42] Resolve issue with model loader
+[2026-02-04T11:17:45] Update README with bounding box renderer docs
