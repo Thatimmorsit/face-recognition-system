@@ -327,3 +327,4 @@
 [2026-02-05T16:36:30] Enhance label encoder accuracy
 [2026-02-10T09:50:25] Bump preprocessing dependencies
 [2026-02-17T16:06:23] Add inline comments to database handler
+[2026-02-17T18:25:25] Correct model loader output format
